@@ -1,0 +1,43 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+.island-moments-regular {
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 400 to 700
+  */
+  .expletus-sans {
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+
+
+h1{
+    color: red;
+    font-size: 128px;
+}
+.homebackground{
+  
+    
+    background-image: linear-gradient(to top,#F2DC66,rgb(218, 125, 91, 0.7));
+    background-color: #F2DC66;
+}
+.headingcontent {
+    background-color: blue;
+
+ margin-left: 100px;
+
+}
+h2{
+    font-size: 40px;
+}
