@@ -33,11 +33,20 @@ h1{
     background-color: #F2DC66;
 }
 .headingcontent {
-    background-color: blue;
+
 
  margin-left: 100px;
 
 }
 h2{
     font-size: 40px;
+}
+.skillssection{
+    background-color: #F1E2C3;
+}
+.contactsection{
+    background-color:#92D9B7;
+}
+.footernav li{
+ list-style:  none;
 }
