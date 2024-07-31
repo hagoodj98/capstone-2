@@ -85,6 +85,7 @@ p{
 @media(min-width: 321px){
 h1{
     font-size: 55px;
+    
 }
 h2{
     font-size: 20px;
@@ -107,9 +108,7 @@ h3{
 .computer, .headphones{
     width: 250px;
 }
-.divforcontactcontent{
-  
-}
+
 .contactblock{
     min-width: 50%;
     max-width: 90%;
@@ -153,11 +152,6 @@ p{
     font-size: 35px;
     color: #593C5A;
 }
-/*#contactcontent{
-
-padding:  0 1%;
-background-color: #92D9B7;
-}*/
 
 .skillssection{
     height: 30%;
@@ -233,9 +227,11 @@ h3{
         h1{
             padding-left: 50px;
             font-size: 130px;
+            color: #593C5A;
         }
         .programguy{
             padding-left: 50px;
+            color: #593C5A;
         }
         #tack{
             position: absolute;
@@ -312,6 +308,11 @@ p{
 footer{
     background-color: rgb(146, 217, 183, 0.6);
     color: #593C5A;
+ 
+}
+.footer{
+    background-color: rgb(146, 217, 183);
+    padding: 30px;
 }
 #me{
     border: 2px solid red;
