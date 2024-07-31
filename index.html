@@ -12,84 +12,75 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
-    <div class="container-fluid">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
-         
-        <div class="homebackground d-flex align-items-center" style="height: 100svh;">
-            <div class="headingcontent ">
-                <div class="p-4">
-                    <h1 class="island-moments-regular">Hey, I’m Jaiquez</h1>
-                    <h2 class="expletus-sans">Programmer Guy</h2>
-                </div>
+    <div class="container-lg homebackground d-flex  justify-content-center align-items-center" style="height: 100svh;">
+        <div class="d-flex justify-content-center  ">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="island-moments-regular">Hey, I’m Jaiquez</h1>
+                <h2 class="expletus-sans" style="font-weight: 300;">A Programmer Guy</h2>
             </div>
         </div>
-        <div class="d-flex">
-            <div class="border border-secondary d-flex align-items-end">
-                <div>
-                    <img src="images/Line 5.png"  alt="">
-                    <h2>Oh, About me?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magnam ducimus aperiam itaque possimus est maiores quae quam excepturi cupiditate obcaecati, vel laborum alias! Veniam sequi molestias aperiam delectus neque.</p>
-                </div>
-            </div>
-            <div>
-                <img src="images/Group 3.png" width="300px" alt="">
-            </div>
+    </div>
+    <!--ABOUT ME SECTION-->
+    <div class="container d-flex flex-column flex-md-row-reverse border border-secondary p-3" style="height: 100svh;">
+        <div class=" border border-secondary box1 d-flex flex-column align-items-center  justify-content-center ">
+            <img src="images/Mask group.png"  class="img-fluid" id="photoofme" alt="">
         </div>
-        <div class="d-flex flex-column skillssection">
-            <h2 class="text-center">My Skills</h2>
-            <div class="d-flex flex-column border border-primary justify-content-between">
-                <div class="d-flex justify-content-around">
-                    <div>
-                        <img src="images/Group 1 (1).png" class="img-fluid" alt="">
+        <div class="border border-primary box2 p-3 d-flex flex-column justify-content-center align-self-md-center" >
+            <img src="images/Line 5.png" width="80px" alt="">
+            <h2 class="island-moments-regular h2">Oh, About me?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magnam ducimus aperiam itaque possimus est maiores quae quam excepturi cupiditate obcaecati, vel laborum alias! Veniam sequi molestias aperiam delectus neque.</p>           
+        </div>
+    </div>
+    <!--Skills Section-->
+        <div class="container-md d-flex flex-column  skillssection ">
+            <h2 class="text-center m-2 island-moments-regular h2">My Skills</h2>
+            <div class="d-flex flex-column border border-secondary justify-content-between p-4">
+                <div class="d-flex flex-column  flex-md-row align-items-center">
+                    <div class="d-flex flex-column align-items-center border border-primary ">
+                        <img src="images/Group 1 (1).png" class="img-fluid computer" alt="">
+                        <div class="  d-flex flex-column align-items-center  border border-primary skillstext ">
+                            <h3 class="expletus-sans">Web Designer</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="images/Group 4.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="border border-secondary d-flex justify-content-around">
-                    <div> 
-                        <h3 class="text-center">Web Designer</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></div>
-                    <div>
-                        <h3 class="text-center">Mastering Engineer</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <div class="d-flex flex-column align-items-center border border-primary ">
+                        <img src="images/Group 4.png" class="img-fluid headphones" alt="">
+                        <div class=" d-flex flex-column align-items-center skillstext">
+                            <h3 class="expletus-sans ">Mastering Engineer</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contactsection d-flex justify-content-around ">
-            <div class="d-flex flex-column border border-primary align-self-center">
-                <h2>Get in Touch!</h2>
+        <!--End of Skills Section-->
+        <div class="container-md contactsection d-flex flex-column flex-md-row justify-content-around p-4 ">
+            <div class="d-flex flex-column border border-primary align-items-center align-items-md-start justify-content-center justify-content-md-center p-3">
+                <h2 class="island-moments-regular h2" id="getintouch">Get in Touch!</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quam, distinctio in</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quam, distinctio in</p>
+                <button class="mt-2 pt-2 pb-2">Send an email!</button>
             </div>
-            <div>
-                <img src="images/Group 2.png"  class="img-fluid" alt="">
+            <div class="mx-auto ">
+                <img src="images/Group 2.png"  class="img-fluid phone" alt="">
             </div>
         </div>
-        <footer class="d-flex">
+        <footer class="d-flex flex-column  align-items-center flex-md-row">
             <div class="flex-grow-1">
-                <h2>Jaiquez</h2>
+                <h2 class="expletus-sans pt-2  " id="footerheading">Jaiquez</h2>
             </div>
-            <div class="flex-grow-1">
-                <ul class=" footernav d-flex justify-content-around border border-primary " style=" height: 100%">
+            <div class="flex-grow-1 pt-2 pb-2">
+                <ul class=" footernav d-flex border border-primary expletus-sans" style=" height: 100%">
                     <li>Resume</li>
-                    <li>Portfilio</li>
+                    <li class="mx-4">Portfilio</li>
                     <li>Music</li>
                </ul>
             </div>
+            <div class="flex-grow-1 expletus-sans">
+                <p> 2024 Company, Inc. All rights reserved.</p>
+            </div>
         </footer>
-    </div>
+    
     
      
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
