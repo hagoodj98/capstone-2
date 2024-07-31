@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .island-moments-regular {
     font-family: "Island Moments", cursive;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
   }
   /* <uniquifier>: Use a unique and descriptive class name
@@ -67,51 +67,47 @@ h3{
 .computer, .headphones{
     width: 150px;
 }
-.skillstext p,.contactsection p{
-    text-align: center;
-}
+
 p{
     font-size: 15px;
     color: #593C5A;
 }
 
-
 }
 
 @media(min-width: 321px){
-    h1{
-        font-size: 55px;
-    }
-    h2{
-        font-size: 20px;
-    }
-    h3{
-        font-size: 17px;
-        color: rgb(218, 125, 91);
-    }
-    #footerheading{
-        font-size: 40px;
-    }
-    .h2{
-        font-size: 40px;
-        color: #DA7D5B;
-    }
-    #getintouch{
-        font-size: 40px;
-        color: #593C5A;
-    }
-    .computer, .headphones{
-        width: 170px;
-    }
-    .skillstext p,.contactsection p{
-        text-align: center;
-    }
-    p{
-        color: #593C5A;
-    }
-    .phone{
-        display: none;
-    }
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 17px;
+    color: rgb(218, 125, 91);
+}
+#footerheading{
+    font-size: 40px;
+}
+.h2{
+    font-size: 40px;
+    color: #DA7D5B;
+}
+#getintouch{
+    font-size: 40px;
+    color: #593C5A;
+}
+.computer, .headphones{
+    width: 250px;
+}
+
+p{
+    
+    color: #593C5A;
+}
+.phone{
+    display: none;
+}
 .box1{
     width: 100%;
     height: 50%;
@@ -120,9 +116,21 @@ p{
     width: 100%;
     height: 50%;
 }
+.contactcontent{
+    max-width: 90%;
+    margin: auto;
+}
 #photoofme {
     min-width: 60%;
     max-width: 70%;
+}
+.skill p{
+    text-align: center;
+}
+#getintouch{
+    font-size: 55px;
+    color: #593C5A;
+    
 }
 }
 
@@ -137,6 +145,7 @@ p{
 @media(min-width: 768px){
     .phone{
         display: inline;
+        width: 200px;
     }
 
     .skillstext p{
@@ -144,12 +153,12 @@ p{
     }
 
     .box1{
-        margin-top: 5%;
+       
         width: 50%;
         height: 50%;
         }
         .box2{
-            margin-top: 20%;
+            margin-top: 22%;
         max-width: 50%;
         max-height: 30%;
         }
@@ -157,8 +166,31 @@ p{
           max-width: 100%;
           
         }
-}
-
+        .contactcontent{
+            max-width: 40%;
+        }
+        .phoneside{
+            min-width: 40%;
+        }
+        .h2{
+            font-size: 60px;
+            color: #DA7D5B;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    @media(min-width: 992px) {
+        .h2{
+            font-size: 65px;
+            color: #DA7D5B;
+        }
+        .box2{
+            margin-top: 22%;
+        max-width: 40%;
+        max-height: 30%;
+        }
+    }
 
 h1 h2{
     color: #593C5A;
@@ -185,6 +217,7 @@ h1 h2{
 }
 p{
     font-family: "Expletus Sans", sans-serif;
+    line-height: 1.6;
 }
 footer{
     background-color: rgb(146, 217, 183, 0.6);
@@ -196,7 +229,4 @@ footer{
 }
 #aboutme{
     width: 50%;
-}
-.aboutmesection{
-    height: 100svh;
 }

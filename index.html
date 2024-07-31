@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
-    <div class="container-lg homebackground d-flex  justify-content-center align-items-center" style="height: 100svh;">
+    <div class="container-fluid homebackground d-flex justify-content-center align-items-center" style="height: 750px;">
         <div class="d-flex justify-content-center  ">
             <div class="d-flex flex-column align-items-center">
                 <h1 class="island-moments-regular">Hey, I’m Jaiquez</h1>
@@ -21,64 +21,80 @@
         </div>
     </div>
     <!--ABOUT ME SECTION-->
-    <div class="container d-flex flex-column flex-md-row-reverse border border-secondary p-3" style="height: 100svh;">
-        <div class=" border border-secondary box1 d-flex flex-column align-items-center  justify-content-center ">
+    <div class="container d-flex flex-column flex-md-row-reverse  gap-3 p-3" style="height: auto;">
+        <div class="  box1 d-flex flex-column align-items-center  justify-content-center ">
             <img src="images/Mask group.png"  class="img-fluid" id="photoofme" alt="">
         </div>
-        <div class="border border-primary box2 p-3 d-flex flex-column justify-content-center align-self-md-center" >
-            <img src="images/Line 5.png" width="80px" alt="">
-            <h2 class="island-moments-regular h2">Oh, About me?</h2>
+        <div class=" box2 p-3 d-flex flex-column justify-content-center align-self-md-end" >
+            <img src="images/Line 5.svg" width="150px" alt="">
+            <h2 class="island-moments-regular h2">Oh, About me...?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magnam ducimus aperiam itaque possimus est maiores quae quam excepturi cupiditate obcaecati, vel laborum alias! Veniam sequi molestias aperiam delectus neque.</p>           
         </div>
     </div>
-    <!--Skills Section-->
-        <div class="container-md d-flex flex-column  skillssection ">
-            <h2 class="text-center m-2 island-moments-regular h2">My Skills</h2>
-            <div class="d-flex flex-column border border-secondary justify-content-between p-4">
-                <div class="d-flex flex-column  flex-md-row align-items-center">
-                    <div class="d-flex flex-column align-items-center border border-primary ">
-                        <img src="images/Group 1 (1).png" class="img-fluid computer" alt="">
-                        <div class="  d-flex flex-column align-items-center  border border-primary skillstext ">
-                            <h3 class="expletus-sans">Web Designer</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-center border border-primary ">
-                        <img src="images/Group 4.png" class="img-fluid headphones" alt="">
-                        <div class=" d-flex flex-column align-items-center skillstext">
-                            <h3 class="expletus-sans ">Mastering Engineer</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-                        </div>
-                    </div>
+    <div class="d-flex container-fluid flex-column skillssection gap-3 p-5">
+        <div class=" d-flex align-self-center ">
+            <h2 class="island-moments-regular h2">My Skills</h2>
+        </div>
+        <div class=" d-flex flex-column justify-content-around flex-md-row gap-3 skill align-items-center">
+            <!-- Website side-->
+            <div class="d-flex flex-column align-items-center">
+                <img src="images/Group 1 (1).png" class="img-fluid computer" alt="">
+                <div class="d-flex flex-column align-items-center p-3">
+                    <h3 class="expletus-sans">Web Designer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
                 </div>
             </div>
-        </div>
-        <!--End of Skills Section-->
-        <div class="container-md contactsection d-flex flex-column flex-md-row justify-content-around p-4 ">
-            <div class="d-flex flex-column border border-primary align-items-center align-items-md-start justify-content-center justify-content-md-center p-3">
-                <h2 class="island-moments-regular h2" id="getintouch">Get in Touch!</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quam, distinctio in</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quam, distinctio in</p>
-                <button class="mt-2 pt-2 pb-2">Send an email!</button>
+            <!--End Website side-->
+            <!--mastering side-->
+            <div class="d-flex flex-column align-items-center">
+                <img src="images/Group 4 copy.png" class="img-fluid headphones" alt="">
+                <div class="d-flex flex-column align-items-center p-3">
+                    <h3 class="expletus-sans ">Mastering Engineer</h3>
+                    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                </div>
             </div>
-            <div class="mx-auto ">
+            <!-- end mastering side-->
+        </div>
+    </div>
+    
+        <!--End of Skills Section-->
+    <div class=" container-fluid  contactsection">
+        <div class="d-flex container contactsection justify-content-evenly p-3">
+            <div class="d-flex gap-3 align-items-center align-items-md-start contactcontent flex-column">
+                <div >
+                    <h2 class="expletus-sans h2" id="getintouch">Get In touch!</h2>
+                </div>
+                <p>If you like my work?</p>
+                <p>Don't hestiate, send me an email. </p>
+                <p>Yours Truly. 👇🏾</p>
+                <div>
+                    <button class=" pt-2 pb-2">Send an email!</button>
+                </div>
+            </div>
+            <div class="d-flex  justify-content-center phoneside">
                 <img src="images/Group 2.png"  class="img-fluid phone" alt="">
             </div>
         </div>
-        <footer class="d-flex flex-column  align-items-center flex-md-row">
+        
+    </div>
+    
+        <footer class="d-flex flex-column container-fluid align-items-center flex-md-row p-3">
             <div class="flex-grow-1">
                 <h2 class="expletus-sans pt-2  " id="footerheading">Jaiquez</h2>
             </div>
-            <div class="flex-grow-1 pt-2 pb-2">
-                <ul class=" footernav d-flex border border-primary expletus-sans" style=" height: 100%">
-                    <li>Resume</li>
-                    <li class="mx-4">Portfilio</li>
-                    <li>Music</li>
-               </ul>
+            <div class="d-flex flex-column">
+                <div class="flex-grow-1 d-flex justify-content-center pt-2 pb-2">
+                    <ul class=" footernav d-flex  expletus-sans" style=" height: 100%">
+                        <li>Resume</li>
+                        <li class="mx-4">Portfilio</li>
+                        <li>Music</li>
+                   </ul>
+                </div>
+                <div class="flex-grow-1 expletus-sans">
+                    <p> 2024 Company, Inc. All rights reserved.</p>
+                </div>
             </div>
-            <div class="flex-grow-1 expletus-sans">
-                <p> 2024 Company, Inc. All rights reserved.</p>
-            </div>
+            
         </footer>
     
     
