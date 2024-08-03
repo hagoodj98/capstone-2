@@ -51,41 +51,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @media(max-width: 320px){
-    .homebackground{
-        background-image: linear-gradient(to top,#F2DC66,rgb(218, 125, 91, 0.7));
-        background-color: #F2DC66;
-    }
+.homebackground{
+    background-image: linear-gradient(to top,#F2DC66,rgb(218, 125, 91, 0.7));
+    background-color: #F2DC66;
+}
 h1{
     font-size: 55px;
-    color: #593C5A;
-}
-.h2{
-    font-size: 45px;
-    color: #DA7D5B;
-}
-#getintouch{
-    font-size: 40px;
-    color: #593C5A;
-}
-h3{
-    font-size: 20px;
-    color: #593C5A;
-}
-.computer, .headphones{
-    width: 150px;
-}
-
-p{
-    font-size: 15px;
-    color: #593C5A;
-}
-
-}
-
-@media(min-width: 321px){
-h1{
-    font-size: 55px;
-    
 }
 h2{
     font-size: 20px;
@@ -108,13 +79,11 @@ h3{
 .computer, .headphones{
     width: 250px;
 }
-
 .contactblock{
     min-width: 50%;
     max-width: 90%;
 }
 .contacttext{
-   
     width: 100%;
     padding: 30px;
 }
@@ -127,11 +96,9 @@ p{
 }
 .box1{
     width: 100%;
-   
-    }
+}
 .box2{
     width: 100%;
-   
 }
 .contactcontent{
     max-width: 90%;
@@ -152,7 +119,6 @@ p{
     font-size: 35px;
     color: #593C5A;
 }
-
 .skillssection{
     height: 30%;
 }
@@ -160,21 +126,104 @@ p{
     position: absolute;
     top: 40px; 
     left: 155px;
-   
-    
 }
 #tacksize{
     width: 110px;
 }
 }
-
-@media(min-width: 600px){
-    #photoofme {
-       
-    }
-
+@media(min-width: 321px){
+h1{
+    font-size: 55px;
+    color: #593C5A;
 }
-
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 17px;
+    color: rgb(218, 125, 91);
+}
+#footerheading{
+    font-size: 40px;
+}
+.h2{
+    font-size: 40px;
+    color: #DA7D5B;
+}
+#getintouch{
+    font-size: 40px;
+    color: #593C5A;
+}
+.computer, .headphones{
+    width: 250px;
+}
+.contactblock{
+    min-width: 50%;
+    max-width: 90%;
+}
+.contacttext{
+    width: 100%;
+    padding: 30px;
+}
+p{
+    font-size: 17px;
+    color: #593C5A;
+}
+.phone{
+    display: none;
+}
+.box1{
+    width: 100%;
+}
+.box2{
+    width: 100%;
+}
+.contactcontent{
+    max-width: 90%;
+    margin: auto;
+}
+.maincontactblock{
+    padding: 80px 0;
+    position: relative;
+}
+#photoofme {
+    min-width: 60%;
+    max-width: 70%;
+}
+.skill p{
+    text-align: center;
+}
+#getintouch{
+    font-size: 35px;
+    color: #593C5A;
+}
+.skillssection{
+    height: 30%;
+}
+#tack{
+    position: absolute;
+    top: 40px; 
+    left: 155px;
+}
+.programguy{
+    color: #593C5A;
+}
+#tacksize{
+    width: 110px;
+}
+}
+@media(min-width: 576px){
+.headingtext{
+    margin-left: 50px;
+}
+h1{
+    font-size: 80px;
+    color: #593C5A;
+}
+.programguy{
+    color: #593C5A;
+}
+}
 @media(min-width: 768px){
     .phone{
         display: inline;
@@ -184,122 +233,122 @@ h3{
     padding-top: 10px;
     font-size: 25px;
 }
-    .skillstext p{
-        text-align: center;
-    }
-   .skillsheadingsection{
+.skillstext p{
+    text-align: center;
+}
+.skillsheadingsection{
     height: 30%;
-   }
-    .box1{
-            margin-bottom: 21%;
-            width: 50%;
-            height: 50%;
-        }
-        .box2{
-            margin-top: 300px;   
-            max-width: 50%;
-            max-height: 30%;
-        }
-        #photoofme {
-          max-width: 100%;
-          
-        }
-        .maincontactblock{
-            padding: 100px 0;
-        }
-        .contactblock{
-            min-height: 300px;
-            max-width: 600px;
-        }
-        .contacttext{
-           
-            height: 400px;
-            
-            padding: 0 55px;
-        }
-        .h2{
-            font-size: 60px;
-            color: #DA7D5B;
-        }
-        p{
-            font-size: 20px;
-        }
-        h1{
-            padding-left: 50px;
-            font-size: 130px;
-            color: #593C5A;
-        }
-        .programguy{
-            padding-left: 50px;
-            color: #593C5A;
-        }
-        #tack{
-            position: absolute;
-            top: 20px; 
-            left: 320px;
-            
-        }
-        #getintouch{
-            font-size: 50px;
-            color: #593C5A;
-        }
-        #tacksize{
-            width: 180px;
-        }
-    }
-    @media(min-width: 992px) {
-        .h2{
-            font-size: 65px;
-            color: #DA7D5B;
-        }
-        h1{
-          
-            padding-left: 50px;
-        }
-        .programguy{
-            padding-left: 500px;
-        }
-        .box2{
-            margin-top: 22%;
-        max-width: 40%;
-        max-height: 30%;
-        }
-        #tack{
-            position: absolute;
-            top: 20px; 
-            left: 440px;
-            
-        }
-    }
-    @media(min-width:1200px){
-        #tack{
-            position: absolute;
-            top: 20px; 
-            left: 530px;
-            
-        }
-    }
-
+}
+.box1{
+    margin-bottom: 21%;
+    width: 50%;
+    height: 50%;
+}
+.box2{
+    margin-top: 300px;   
+    max-width: 50%;
+    max-height: 30%;
+}
+#photoofme {
+    max-width: 100%;
+}
+.webdesignside{
+    max-width: 50%;
+    min-width: 50%;
+}
+.masterinengineerside{
+    max-width: 50%;
+    min-width: 50%;
+}
+.maincontactblock{
+    padding: 100px 0;
+}
+.contactblock{
+    min-height: 300px;
+    max-width: 600px;
+}
+.contacttext{
+    height: 400px;
+    padding: 0 55px;
+}
+.headingtext{
+    margin-left: 50px;
+}
+.h2{
+    font-size: 60px;
+    color: #DA7D5B;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 130px;
+    color: #593C5A;
+}
+.programguy{
+    color: #593C5A;
+}
+#tack{
+    position: absolute;
+    top: 20px; 
+    left: 320px;
+}
+#getintouch{
+    font-size: 50px;
+    color: #593C5A;
+}
+#tacksize{
+    width: 180px;
+}
+}
+@media(min-width: 992px) {
+.h2{
+    font-size: 65px;
+    color: #DA7D5B;
+}
+.box2{
+    margin-top: 22%;
+    max-width: 40%;
+    max-height: 30%;
+}
+#tack{
+    position: absolute;
+    top: 20px; 
+    left: 440px;
+}
+a{
+    font-size: 18px;
+}
+}
+@media(min-width:1200px){
+#tack{
+    position: absolute;
+    top: 20px; 
+    left: 530px;
+}
+}
 h1 h2{
     color: #593C5A;
-    
-
 }
 .homebackground{
-  
-    
     background-image: linear-gradient(to top,#F2DC66,rgb(218, 125, 91, 0.7));
     background-color: #F2DC66;
 }
-
-
 .skillssection{
     background-color: #F1E2C3;
-  
 }
-
+.hidden{
+    transform: translatey(100px);
+    opacity: 0;
+    transition: all 3s;
+}
+.show{
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 2s;
+}
 .footernav li{
- list-style:  none;
+    list-style:  none;
 }
 p{
     font-family: "Expletus Sans", sans-serif;
@@ -336,9 +385,7 @@ footer{
     border-radius: 10px;
 }
 
-.containerholdingcontactcontent h2, .containerholdingcontactcontent p{
-    text-shadow: 3px 3px rgb(0, 0, 0, 0.2);
-}
+
 button{
     padding: 10px;
     border-radius: 25px;
@@ -346,4 +393,17 @@ button{
     color: #593C5A;
     box-shadow: 5px 4px rgb(0, 0, 0, 0.2);
     background-color: #F1E2C3 ;
+}
+button:hover{
+    background-color:#DA7D5B ;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #593C5A;
+}
+
+a:hover{
+    color:#DA7D5B;
 }
